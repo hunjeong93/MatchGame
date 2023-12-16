@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="Find all of the matching animals" Height="450" Width="400">
 
-    <Grid>
+    <Grid x:Name="mainGrid">
         <Grid.ColumnDefinitions>
             <ColumnDefinition/>
             <ColumnDefinition/>
@@ -15,7 +15,6 @@
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
-            <RowDefinition/>
             <RowDefinition/>
             <RowDefinition/>
             <RowDefinition/>
@@ -37,9 +36,5 @@
         <TextBlock Grid.Column="1" Grid.Row="3" HorizontalAlignment="Center" TextWrapping="Wrap" Text="?" VerticalAlignment="Center"  FontSize="36" />
         <TextBlock Grid.Column="2" Grid.Row="3" HorizontalAlignment="Center" TextWrapping="Wrap" Text="?" VerticalAlignment="Center"  FontSize="36" />
         <TextBlock Grid.Column="3" Grid.Row="3" HorizontalAlignment="Center" TextWrapping="Wrap" Text="?" VerticalAlignment="Center"  FontSize="36" />
-        <TextBlock Grid.Column="0" Grid.Row="4" HorizontalAlignment="Center" TextWrapping="Wrap" Text="?" VerticalAlignment="Center"  FontSize="36" />
-        <TextBlock Grid.Column="1" Grid.Row="4" HorizontalAlignment="Center" TextWrapping="Wrap" Text="?" VerticalAlignment="Center"  FontSize="36" />
-        <TextBlock Grid.Column="2" Grid.Row="4" HorizontalAlignment="Center" TextWrapping="Wrap" Text="?" VerticalAlignment="Center"  FontSize="36" />
-        <TextBlock Grid.Column="3" Grid.Row="4" HorizontalAlignment="Center" TextWrapping="Wrap" Text="?" VerticalAlignment="Center"  FontSize="36" />
     </Grid>
 </Window>
